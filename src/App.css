@@ -1,0 +1,68 @@
+.inner  {
+     /*display: "flex",*/
+    position: relative;
+    /* height:"100%"
+    // width:"700px",*/
+    height:451px;
+    /* left:20%;
+    // top: "25%";
+    // flexDirection: "row",
+    // justifyContent: "justify", */
+}
+
+.outer {
+    /*// display: "flex",
+    // flexDirection: "column",
+    // justifyContent: "justify", 
+    // marginTop: "9em",
+    // position: "relative",
+    // marginLeft: "15em",*/
+    text-align: center;
+    margin:auto;
+    text: 100px;
+    padding: 10px;
+}
+
+.dividerStyle {
+    /*// marginLeft: "50px",*/
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 35px;
+    color: white;
+}
+
+.score {
+    /*// marginLeft: "100px",*/
+    position: absolute;
+    left:45%;
+    font-size: 50px;
+    color: white;
+}
+
+.player2score {
+    /*// marginLeft: "100px",*/
+    position: absolute;
+    right:45%;
+    font-size: 50px;
+    color: white;
+}
+
+.style {
+   /* // width: "250px",
+    // heigth: "250px",
+    // marginLeft:25%,
+  //   left: 0; 
+  // right: 0; 
+  // marginLeft: "auto",
+  // marginRight: "auto", 
+    // margin:"auto",
+    // right:"20%",*/
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    display: grid;
+    grid-template: repeat(11, 1fr) / repeat(21, 1fr);
+}
